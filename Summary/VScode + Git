@@ -1,0 +1,61 @@
+Visual Studio code - 무료, 오픈소스, 확장기능 우수 // Git 연동 가능
+
+단축키
+tab : 들여쓰기
+shift + tab : 내어쓰기
+ctrl + / : 주석처리
+ctrl + f : 찾기
+ctrl + p : 파일로 이동
+ctrl + = : 확대
+ctrl + - : 축소
+ctrl + b : 사이드바 표시
+ctrl + shift + p : 명령어 팔레트 *****
+f5 : 실행
+ctrl + shift + f5 : 다시 실행
+
+VScode 초기화 방법
+1. C:\User\계정명\.vscode 폴더 삭제
+2. C:\User\계정명\Appdata\Roaming\Code 폴더 삭제
+
+Git의 목적 
+1. version 관리
+2. bakcup
+3. 협업(collaborate)
+
+VScode와 사용하는 방법
+1. https://code.visualstudio.com/download - VScode 설치 후
+2. https://www.git-scm.com - git 설치    -> 확인방법 : 터미널에서 git 을 쳤을때 명령어가 나와야함.  git 설치시 Bash는 필수로 다운로드
+3. 저장소 초기화 -> .git폴더 생성 확인   -> 기본적으로 숨김상태이므로 기본 설정 - 검색 : exclude - .git 삭제
+4. github 계정과 연동
+    git config --global user.name "user name(Github 계정)"
+    git config --global user.email "user@inflearn.com(Github 이메일)"
+
+Git 종류
+githubDesktop - 간단
+tortoisegit - 윈도우 탐색기 +
+sourcetree - 강력한 대신 복잡
+mingw - Git의 오리지날 프로그램 CLI
+
+Git CLI 명령어
+git log 
+git log --all
+git log --all --oneline
+git checkout id
+git init
+git add
+git commit -m ""
+git remote add
+git push
+git pull
+
+Git 작동 원리
+저장소를 생성하면 head도 생성
+head는 기본적으로 master를 가리킴
+master는 지금 만들어진 version을 가리킴
+
+처음 version이 만들어지면 head는 지금 만들어진 version의 commit Id를 가리키게 됨
+그 다음 version이 만들어지면 parent에 head가 가리키는 값이 저장이 되고
+head는 master를 가리키고 master는 지금 만들어진 version을 가리키므로 head는 다시 지금 만들어진 version의 commit Id를 가리키게 됨
+
+    * origin은 github와 동기화된 version을 가리킴
+

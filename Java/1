@@ -1,0 +1,12 @@
+자바 프로그램 실행 원리
+
+Program
+Java Virtual Machine
+Operating System
+hardware
+
+운영체제 위에 Java Virtual Machine을 실행 시켜서 프로그램을 실행시키는 구조로
+운영체제와 상관없이 프로그램을 실행 시킬 수 있다. * 단, 운영체제에 따라 Java Virtual Machine을 다르게 설치해야함
+
+자바 컴파일러인 javac.exe는 test.java(소스파일)를 Java Virtual Machine이 이해할 수 있는 자바 바이트코드로 변환시켜 test.class 파일을 생성하고
+java.exe(자바 런처)는 Java Virtual Machine을 구동하고 그 위에 자바 프로그램이 실행되도록 돕는 프로그램이다.
