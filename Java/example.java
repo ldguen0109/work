@@ -1,8 +1,11 @@
-class UseVariable {
+class Constants {
     public static void main(String[] args) {
-        short num1 = 11;
-        short num2 = 22;
-        int result = num1 + num2;
-        System.out.println(result);
+        final int MAX_SIZE = 100;
+        final char CONST_CHAR = '상';
+        final int CONST_ASSIGNED;
+        CONST_ASSIGNED = 12;
+        System.out.println("상수1 : " + MAX_SIZE);
+        System.out.println("상수2 : " + CONST_CHAR);
+        System.out.println("상수3 : " + CONST_ASSIGNED);
     }
 }
