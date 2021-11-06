@@ -1,4 +1,4 @@
-class problem4 {
+class problem4 { 
     public static void main(String[] args) {
         int num = 3;
         num += 6;

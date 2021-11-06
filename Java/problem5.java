@@ -1,4 +1,4 @@
-class problem5 {
+class problem5 { 
     public static void main(String[] args) {
         double n1 = ((25 + 5) + (36 / 4) -72) * 5;
         double n2 = ((25 * 5) + (36 - 4) + 71) / 4;
