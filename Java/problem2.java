@@ -1,6 +1,20 @@
-public class problem2 {
+class SCE {
     public static void main(String[] args) {
-        System.out.println("2 + 5 = " + 2 + 5);
-        System.out.println("2 + 5 = " + (2 + 5));
-    }
+        int num1 = 0;
+        int num2 = 0;
+        boolean result;
+        num1 += 10;
+        num2 += 10;
+        result = (num1 < 0) && (num2 > 0);
+        System.out.println("result = " + result);
+        System.out.println("num1 = " + num1);
+        System.out.println("num2 = " + num2 + '\n');
+
+        num1 += 10;
+        num2 += 10;
+        result = (num1 > 0) || (num2 > 0);
+        System.out.println("result = " + result);
+        System.out.println("num1 = " + num1);
+        System.out.println("num2 = " + num2);
+    }    
 }

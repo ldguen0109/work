@@ -1,9 +1,8 @@
-public class problem3 {
+class problem3 {
     public static void main(String[] args) {
-        System.out.println("1"+2);
-        System.out.println("1" + "2");
-        System.out.println(7 + 5);
-        System.out.println("1"+(1+1));
-        System.out.println(12);
-    }
+        double result = ((25 * 5) + (36-4)-72) / 5;
+        double result1 = (double)((25 * 5) + (36-4)-72) / 5;
+        System.out.println("result : " + result);
+        System.out.println("result1 : " + result1);
+    }    
 }
