@@ -1,11 +1,14 @@
 class Constants {
     public static void main(String[] args) {
-        System.out.println("AB" + '\b' + 'C');
-        System.out.println("AB" + '\t' + 'C');
-        System.out.println("AB" + '\\' + 'C');
-        System.out.println("AB" + '\'' + 'C');
-        System.out.println("AB" + '\"' + 'C');
-        System.out.println("AB" + '\n' + 'C');
-        System.out.println("AB" + '\r' + 'C');
+        int num1 = 50;
+        int num2 = 100;
+        int big, diff;
+
+        big = (num1 > num2) ? num1 : num2;
+        System.out.println("큰 수 : " + big);
+
+        diff = (num1 > num2) ? (num1 - num2) : (num2 - num1); //
+        System.out.println("절대값 : " + diff);
+
     }
 }
